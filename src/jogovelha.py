@@ -1,12 +1,10 @@
 def inicializar():
-	tab = []
-	i = 0
-	j = 0
+    	tab = []
 	for i in range(3):
 		linha = []
 		for j in range(3):
 			linha.append(".")
-			tab.append(linha)
+		tab.append(linha)
 	return tab
 
 def main():
