@@ -5,3 +5,4 @@ before_script:
   - cd src
 script:
   - python testes.py
+  - python jogovelha.py
